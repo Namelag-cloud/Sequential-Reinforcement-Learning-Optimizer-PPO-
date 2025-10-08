@@ -1,0 +1,342 @@
+[
+  {
+    "Skill": "Intro: Vindiction",
+    "DMG %": {
+      "ATK": "198.84%"
+    },
+    "Time": 1,
+    "Modifier": "InHa",
+    "Trigger": "Intro",
+    "Hits": 4,
+    "Forte": 0,
+    "Concerto": 10,
+    "Resonance": 10,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 0,
+    "Healing": false,
+    "Start": ["GR", "AR"],
+    "End": ["GR", "AR"]
+  },
+  {
+    "Skill": "Outro: Duality",
+    "DMG %": {
+      "ATK": "0%"
+    },
+    "Time": 0,
+    "Modifier": "Ou",
+    "Trigger": "Outro",
+    "Hits": 0,
+    "Forte": 0,
+    "Concerto": -100,
+    "Resonance": 0,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 1,
+    "Healing": false,
+    "Start": ["GR", "AR"],
+    "End": ["GR", "AR"]
+  },
+  {
+    "Skill": "Skill: Camine Gleam (1)",
+    "DMG %": {
+      "ATK": "76.36%"
+    },
+    "Time": 0.38,
+    "Modifier": "SkHa",
+    "Hits": 2,
+    "Forte": 3.5,
+    "Concerto": 8,
+    "Resonance": 1.2,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 2,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Skill: Camine Gleam (1) (Swap)",
+    "DMG %": {
+      "ATK": "76.36%"
+    },
+    "Time": 0.25,
+    "Modifier": "SkHa",
+    "Trigger": "Skill",
+    "Hits": 2,
+    "Forte": 3.5,
+    "Concerto": 8,
+    "Resonance": 1.2,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 3,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Skill: Crimson Erosion (2)",
+    "DMG %": {
+      "ATK": "248.14%"
+    },
+    "Time": 1.2,
+    "Modifier": "SkHa",
+    "Trigger": "Skill",
+    "Hits": 4,
+    "Forte": 7.18,
+    "Concerto": 16,
+    "Resonance": 5,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 4,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Skill: Crimson Erosion (2) (Swap)",
+    "DMG %": {
+      "ATK": "248.14%"
+    },
+    "Time": 0.67,
+    "Modifier": "SkHa",
+    "Hits": 4,
+    "Forte": 7.18,
+    "Concerto": 16,
+    "Resonance": 5,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 5,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Skill: Sanguine Pulse (3)",
+    "DMG %": {
+      "ATK": "434.25%"
+    },
+    "Time": 2.15,
+    "Modifier": "SkHa",
+    "Trigger": "Skill",
+    "Hits": 8,
+    "Forte": 13.84,
+    "Concerto": 24,
+    "Resonance": 9.99,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 6,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Skill: Sanguine Pulse (3) (Swap)",
+    "DMG %": {
+      "ATK": "434.25%"
+    },
+    "Time": 1.37,
+    "Modifier": "SkHa",
+    "Trigger": "Skill",
+    "Hits": 8,
+    "Forte": 13.84,
+    "Concerto": 24,
+    "Resonance": 9.99,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 7,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Skill: Crimson Erosion (Counter)",
+    "DMG %": {
+      "ATK": "248.14%"
+    },
+    "Time": 0.25,
+    "Modifier": "SkHa",
+    "Trigger": "Skill",
+    "Hits": 4,
+    "Forte": 7.18,
+    "Concerto": 0,
+    "Resonance": 5,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 8,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Forte: Chaoscleave + Scatterbloom (50%)",
+    "DMG %": {
+      "ATK": "596.55%"
+    },
+    "Time": 1.48,
+    "Modifier": "HeHa",
+    "Trigger": "Heavy",
+    "Hits": 8,
+    "Forte": -20.5,
+    "Concerto": 50,
+    "Resonance": 20,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 9,
+    "Healing": true,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Forte: Chaoscleave (50%) (Swap)",
+    "DMG %": {
+      "ATK": "417.55%"
+    },
+    "Time": 0.25,
+    "Modifier": "HeHa",
+    "Trigger": "Heavy",
+    "Hits": 7,
+    "Forte": -20.5,
+    "Concerto": 50,
+    "Resonance": 14,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 10,
+    "Healing": true,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Forte: Chaoscleave + Scatterbloom (100%)",
+    "DMG %": {
+      "ATK": "1431.48%"
+    },
+    "Time": 1.48,
+    "Modifier": "HeHa",
+    "Trigger": "Heavy",
+    "Hits": 8,
+    "Forte": -41,
+    "Concerto": 50,
+    "Resonance": 20,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 11,
+    "Healing": true,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Forte: Chaoscleave (100%) (Swap)",
+    "DMG %": {
+      "ATK": "1002.05%"
+    },
+    "Time": 0.25,
+    "Modifier": "HeHa",
+    "Trigger": "Heavy",
+    "Hits": 7,
+    "Forte": -41,
+    "Concerto": 50,
+    "Resonance": 14,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 12,
+    "Healing": true,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Liberation: Crimson Bloom",
+    "DMG %": {
+      "ATK": "785.37%"
+    },
+    "Time": 0.04,
+    "Modifier": "RlHa",
+    "Trigger": "Lib",
+    "Hits": 9,
+    "Forte": 0,
+    "Concerto": 20,
+    "Resonance": -100,
+    "Freeze Timer": 3.13,
+    "Cooldown": 16,
+    "Index": 13,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Basic: Execution 2",
+    "DMG %": {
+      "ATK": "58.85%"
+    },
+    "Time": 0.38,
+    "Modifier": "NoHa",
+    "Trigger": "Basic",
+    "Hits": 1,
+    "Forte": 0,
+    "Concerto": 1.11,
+    "Resonance": 0.92,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 14,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Basic: Execution 2 3",
+    "DMG %": {
+      "ATK": "138.38%"
+    },
+    "Time": 0.78,
+    "Modifier": "NoHa",
+    "Trigger": "Basic",
+    "Hits": 2,
+    "Forte": 0,
+    "Concerto": 2.61,
+    "Resonance": 2.17,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 15,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Basic: Execution 1 2 3",
+    "DMG %": {
+      "ATK": "195.64%"
+    },
+    "Time": 0.97,
+    "Modifier": "NoHa",
+    "Trigger": "Basic",
+    "Hits": 3,
+    "Forte": 0,
+    "Concerto": 3.69,
+    "Resonance": 3.07,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 16,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  },
+  {
+    "Skill": "Basic: Execution 1 2",
+    "DMG %": {
+      "ATK": "116.11%"
+    },
+    "Time": 0.57,
+    "Modifier": "NoHa",
+    "Trigger": "Basic",
+    "Hits": 2,
+    "Forte": 0,
+    "Concerto": 2.19,
+    "Resonance": 1.82,
+    "Freeze Timer": 0,
+    "Cooldown": 0,
+    "Index": 17,
+    "Healing": false,
+    "Start": ["GR"],
+    "End": ["GR"]
+  }
+]
