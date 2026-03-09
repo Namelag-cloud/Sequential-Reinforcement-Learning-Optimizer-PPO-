@@ -1780,7 +1780,7 @@ class ActionTracker:
         total_dmg_pct = sum(float(v.strip('%')) / 100 for v in move.get("DMG %", {}).values())
         damage_per_time = total_dmg_pct / time
         raw_value = alpha_damage * damage_per_time
-        # keep damage/time as a small bounded signal (we'll give it linear weight later)
+        # keep damage/time as a small bounded signal 
         reward_components["damage/time"] = (raw_value / (abs(raw_value) + 50))
 
         # --- Trigger bonus factor ---
@@ -1810,7 +1810,7 @@ class ActionTracker:
             forte_score = 0.0
         reward_components["forte"] = beta_forte * forte_score
 
-        # Resonance logic (raw score kept, we'll normalize+weight later)
+        # Resonance logic 
         resonance_delta = after_resonance - before_resonance
         if resonance_delta < 0:
             resonance_score_raw = 100.0 * min(before_resonance, abs(resonance_delta))
@@ -1829,10 +1829,10 @@ class ActionTracker:
             concerto_score = 0.0
         reward_components["concerto"] = gamma_concerto * concerto_score
 
-        # Off-CD incentive (kept as component)
+        # Off-CD incentive 
         reward_components["off_cd"] = 0.5 if not self.is_on_cooldown(move_name, unit_override=unit_name) else 0.0
 
-        # Buff raw metrics (from your estimator)
+        # Buff raw metrics 
         if before_stats and after_stats:
             buff_info = self.estimate_buff_impact(unit_name, before_stats, after_stats, damage, move_name)
             slope_raw = sum(buff_info["slopes"].values())
@@ -1852,7 +1852,7 @@ class ActionTracker:
             self._max_resonance = max(resonance_score_raw, 1.0)
 
         # update moving-max (slow decay so single spikes don't permanently dominate)
-        decay = 0.999  # very slow decay
+        decay = 0.999 
         self._max_buff_contrib = max(self._max_buff_contrib * decay, contrib_raw, 1.0)
         self._max_buff_slope = max(self._max_buff_slope * decay, slope_raw, 1.0)
         self._max_resonance = max(self._max_resonance * decay, resonance_score_raw, 1.0)
@@ -2456,4 +2456,5 @@ if __name__ == "__main__":
 #     #     print(move_name, "MAN")
 #     #     state, reward, terminated, truncated, info = sim.step(move_name)  # pass name, not idx
 #     #     print(f"Action {idx} -> {move_name} | Reward: {reward:.2f} | Terminated: {terminated}")
+
 
