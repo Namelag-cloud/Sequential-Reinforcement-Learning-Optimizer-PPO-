@@ -130,7 +130,7 @@ The agent observes a large flattened state representation including:
 ## Action mask
 The legality mask itself is appended to the state representation.
 
-The simulator builds a high-dimensional state vector dynamically from game state information. :contentReference[oaicite:0]{index=0}
+The simulator builds a high-dimensional state vector dynamically from game state information. 
 
 ---
 
