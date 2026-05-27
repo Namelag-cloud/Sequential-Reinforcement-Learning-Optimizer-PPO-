@@ -180,7 +180,7 @@ Reward components included:
 - combo-chain rewards
 - DPS-based terminal rewards
 
-The reward function evolved iteratively throughout experimentation. :contentReference[oaicite:1]{index=1}
+The reward function evolved iteratively throughout experimentation. 
 
 ---
 
