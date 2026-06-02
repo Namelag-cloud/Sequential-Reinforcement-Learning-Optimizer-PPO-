@@ -1,4 +1,4 @@
-# WUWA-RL-Agent
+# Sequential Reinforcement Learning Optimizer (PPO)
 
 Reinforcement learning agent for **sequential decision optimization under dynamic constraints**, applied to a complex real-time combat system.
 
