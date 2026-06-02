@@ -113,4 +113,4 @@ This project is a simulation and reinforcement learning research exercise. It do
 
 ---
 
-*Author: Izzy*
+*Author: Namelag*
