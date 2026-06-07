@@ -98,15 +98,6 @@ Python · PyTorch · Gymnasium · Stable-Baselines3 · sb3-contrib (MaskablePPO)
 
 ---
 
-## Potential Extensions
-
-- Imitation learning pretraining from human expert trajectories
-- Transformer-based policy for improved temporal reasoning
-- Multi-team generalization across different unit compositions
-- Automated team composition search
-
----
-
 ## Disclaimer
 
 This project is a simulation and reinforcement learning research exercise. It does not automate gameplay, interact with any live game client, or violate any terms of service.
